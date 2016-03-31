@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+        <ImageView
+            android:id="@+id/iv_showImg_addContactsDialog"
+            android:layout_width="400dp"
+            android:layout_height="360dp"
+            android:src="@drawable/img_default"/>
+
+        <EditText
+            android:id="@+id/tv_contactsName_addContactsDialog"
+            android:hint="姓名"
+            android:textSize="25dp"
+            android:maxLength="11"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tv_contactsNumber_addContactsDialog"
+            android:hint="号码"
+            android:textSize="25dp"
+            android:maxLength="11"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_cancel_addContactsDialog"
+                android:text="取消"
+                android:textSize="25dp"
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/btn_confirm_addContactsDialog"
+                android:text="确认"
+                android:textSize="25dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
